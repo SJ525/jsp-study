@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<web-app>
+    <servlet>
+        <servlet-name>readTestServlet</servlet-name>
+        <servlet-class>control.handleTest.ReadTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>readTestServlet</servlet-name>
+        <url-pattern>/readTestServlet</url-pattern>
+        <url-pattern>/stu/readTestServlet</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>readTestServlet1</servlet-name>
+        <servlet-class>control.handleTest.ReadTestServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>readTestServlet1</servlet-name>
+        <url-pattern>/readTestServlet1</url-pattern>
+        <url-pattern>/stu/readTestServlet1</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+        <servlet-name>endTestServlet</servlet-name>
+        <servlet-class>control.handleTest.EndTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>endTestServlet</servlet-name>
+        <url-pattern>/endTestServlet</url-pattern>
+        <url-pattern>/stu/endTestServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>endTestServlet1</servlet-name>
+        <servlet-class>control.handleTest.EndTestServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>endTestServlet1</servlet-name>
+        <url-pattern>/endTestServlet1</url-pattern>
+        <url-pattern>/stu/endTestServlet1</url-pattern>
+    </servlet-mapping>
+</web-app>

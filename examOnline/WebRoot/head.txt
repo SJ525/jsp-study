@@ -1,0 +1,13 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+<div align="center"> 
+  <font color=red><h1>Java程序设计在线考试系统</h1></font>
+  <table  cellSpacing="1" cellPadding="1" width="600" border="0">
+	   <tr valign="bottom">
+		   <td><A href="index.jsp">返回首页</font></A></td>
+		   <td><A href="loginStu.jsp">考生登陆</A></td>
+		   <td><A href="loginAdm.jsp">管理员登陆</A></td>
+	  </tr>
+</table>
+</div>
+
+

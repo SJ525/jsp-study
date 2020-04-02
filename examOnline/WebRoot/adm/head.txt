@@ -1,0 +1,13 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+<div align="center"> 
+  <font color=red><h3>管理员界面</h3></font>
+  <table  cellSpacing="1" cellPadding="1" width="900" align="center" border="0">
+	   <tr valign="bottom">
+		   <td><A href="/examOnline/adm/indexAdm.jsp">管理员首页</font></A></td>
+		   <td><A href="/examOnline/adm/manageQuestion.jsp">题库管理</A></td>
+		   <td><A href="/examOnline/adm/manageStudent.jsp">考生信息管理</A></td>
+		   <td><A href="/examOnline/adm/admQuit.jsp">退出登陆</A></td>
+	  </tr>
+</table>
+</div>
+

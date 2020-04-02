@@ -1,0 +1,14 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+<div align="center"> 
+  <font color=red><h3>考生界面</h3></font>
+  <table  cellSpacing="1" cellPadding="1" width="660" align="center" border="0">
+	   <tr valign="bottom">
+		   <td><A href="/examOnline/stu/indexStu.jsp">考生首页</A></td>
+		   <td><A href="/examOnline/stu/takeTest.jsp">参加考试</A></td>
+		   <td><A href="/examOnline/stu/queryResult.jsp">查询成绩</A></td>
+		   <td><A href="/examOnline/stu/stuQuit.jsp">退出登陆</A></td>
+	  </tr>
+</table>
+</div>
+
+
